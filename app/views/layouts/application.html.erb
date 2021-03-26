@@ -8,7 +8,20 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+        <%= link_to "Carteira Crypto", root_path, id: "logo" %>
+        <nav>
+          <ul class="nav pull-right">
+            <li><%= link_to "Home", root_path %></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
   <body>
     <%= yield %>

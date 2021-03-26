@@ -46,6 +46,8 @@ group :development do
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
   gem 'pry'
+  gem 'bootstrap-sass'
+
 end
 
 group :test do
