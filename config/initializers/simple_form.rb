@@ -64,7 +64,7 @@ SimpleForm.setup do |config|
     # b.use :full_error, wrap_with: { tag: :span, class: :error }
   end
 
-  config.wrappers :horizontal_form, form_class: 'form-horizontal', tag: 'div', class: 'form-group row' do |b|
+  config.wrappers :horizontal_form, form_class: 'form-vertical', tag: 'div', class: 'form-group row' do |b|
     b.use :html5
     b.use :placeholder
     b.use :label, class: 'text-bold col-xl-2 col-md-3 col-4 col-form-label text-right'

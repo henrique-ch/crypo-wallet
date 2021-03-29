@@ -6,10 +6,16 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.2.1",
+    "jquery": "^3.6.0",
+    "notify-js-legacy": "^0.4.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/HENRIQUE-CH/ruby-on-rails-crypo-wallet.git",
+  "author": "Henrique <ch.henriquevinha@gmail.com>",
+  "license": "MIT"
 }
